@@ -1,0 +1,86 @@
+/* dar formato al cuerpo general de la página */
+body {
+	margin: auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Verdana;
+}
+
+/* encabezado de título de formato */
+h2 {
+	color: #000099;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* mensajes de error de formatos */
+.errorMsg {
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	color: #FFF;
+	background-color: #990000;
+	border: 1px solid #660000;
+	padding: 5px;
+}
+
+/* formatear mensajes de éxito */
+.successMsg {
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	background-color: #66CC66;
+	border: 1px solid #33AA33;
+	padding: 5px;
+}
+
+/* Imágenes de formato de ahorcado */
+#picture {
+	margin: auto;
+	text-align: center;
+}
+
+/* formatear ingresar una sección de letras */
+#select_letter, #guess_word {
+	padding: 10px;
+	text-align: center;
+}
+
+/* formatear letras adivinadas */
+#guessed_letters {
+	margin: auto;
+	text-align: left;
+	padding: 10px;
+	background-color: #CCC;
+}
+
+/* formato iniciar un nuevo juego */
+#start_game {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #CCC;
+}
+
+/* envoltorio alrededor de todo el contenido del juego */
+#content {
+	margin: auto;
+	padding: 10px;
+	width: 60%;
+}
+
+/* ingrese un cuadro de entrada de letras */
+#select_letter input[type="text"] {
+	border: 1px solid #000;
+	background-color: #DDD;
+}
+
+/* comience un nuevo juego y adivine los botones de una letra */
+#start_game input[type="submit"], #select_letter input[type="submit"] {
+	border: 1px solid #000;
+	background-color: #666;
+	color: #FFF;
+}
