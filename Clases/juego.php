@@ -111,3 +111,4 @@ function successMsg($msg)
 {
 	return "<div class=\"successMsg\">$msg</div>";
 }
+?>
